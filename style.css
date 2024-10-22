@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Hiragino kaku Gothic Pro','Meiryo', sans-serif;
+    font-size: 15px;
+}
+.logo {
+    text-align: center;
+}
+.logo img {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.header{
+    width: 1200px;
+    margin: 0 auto;
+    background: #eee;
+}
+.header ul {
+    display: flex;
+}
+.header ul li{
+    width: 200px;
+    text-align: center;
+}
+.header ul li a {
+    display: block;
+}
+.header_img {
+    text-align: center;
+}
+.header_img img {
+    display: inline-block;
+}
+.container_service h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.container_service .service img {
+    margin-bottom: 20px;
+}
+.container_service .service .ttl{
+    font-weight: bold;
+    font-size: 18px;
+}
+.container_service .service .explain {
+    margin-bottom: 20px;
+}
+.container_service .service a {
+    background: #87ed68;
+    color: #fff;
+    padding: 15px 20px 12px;
+}
